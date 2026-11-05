@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=18.17" },
+  "engines": {
+    "node": ">=18.17"
+  },
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
   "dependencies": {
+    "@netlify/functions": "^6.1.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "docx": "^9.0.2",
@@ -22,6 +25,7 @@
     "pdf-parse": "^1.1.1",
     "pdfkit": "^0.15.0",
     "plantuml-encoder": "^1.4.0",
+    "serverless-http": "^4.0.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
