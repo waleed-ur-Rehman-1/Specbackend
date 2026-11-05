@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="SpecForge backend API and service health endpoint.">
+    <title>SpecForge API</title>
+    <style>
+      :root { color-scheme: light; font-family: Georgia, serif; color: #25352d; background: #f4f1e9; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; }
+      main { width: min(680px, calc(100% - 48px)); padding: 64px 0; }
+      .label { font: 12px ui-monospace, monospace; letter-spacing: .16em; text-transform: uppercase; color: #58675e; }
+      h1 { font-size: clamp(48px, 10vw, 88px); font-weight: 400; letter-spacing: -.05em; margin: 24px 0; }
+      p { font-size: 20px; line-height: 1.6; max-width: 520px; }
+      a { display: inline-block; color: #f4f1e9; background: #304d3c; padding: 15px 22px; margin-top: 16px; font: 15px ui-monospace, monospace; text-decoration: none; }
+      a:hover { background: #466550; }
+      a:focus-visible { outline: 3px solid #846c37; outline-offset: 4px; }
+      footer { border-top: 1px solid #c8cec3; margin-top: 64px; padding-top: 20px; font: 13px ui-monospace, monospace; color: #58675e; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <span class="label">SpecForge / Backend</span>
+      <h1>SpecForge API</h1>
+      <p>This site hosts the SpecForge backend. API endpoints are available under <code>/api</code>.</p>
+      <a href="/api/health">Check API health &rarr;</a>
+      <footer>This repository contains the API; a frontend application is not included.</footer>
+    </main>
+  </body>
+</html>
